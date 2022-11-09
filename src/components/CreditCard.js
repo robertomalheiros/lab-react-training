@@ -11,6 +11,11 @@ function CreditCard({type, number, expirationMonth, expirationYear,
 
 
   <div className = "cards" style={mystyle}>
+    <p>{number}</p>
+    <p>{expirationMonth}: {expirationYear}</p>
+      
+    <p>{color}</p>
+    <p>{owner}</p>
 
   </div>)
 }
